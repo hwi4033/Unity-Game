@@ -361,6 +361,9 @@
 "Assets/Class2th (Script)/Scripts/Stats.cs"
 "Assets/Class3th (Get Component)/Scripts/Move.cs"
 "Assets/Class3th (Get Component)/Scripts/StoneUnit.cs"
+"Assets/Class4th (Translate)/Scripts/AirCraft.cs"
+"Assets/Class4th (Translate)/Scripts/Cloud.cs"
+"Assets/Class4th (Translate)/Scripts/Position Manager.cs"
 -langversion:9.0
 
 /deterministic
