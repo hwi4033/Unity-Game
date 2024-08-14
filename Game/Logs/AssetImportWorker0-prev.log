@@ -15,7 +15,7 @@ C:/Users/Administrator/Desktop/Unity-Game/Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63773
+50318
 Successfully changed project path to: C:/Users/Administrator/Desktop/Unity-Game/Game
 C:/Users/Administrator/Desktop/Unity-Game/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Administrator/Desktop/Unity-Game/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1772] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 625159091 [EditorId] 625159091 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11280] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 3330779718 [EditorId] 3330779718 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [1772] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 625159091 [EditorId] 625159091 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11280] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 3330779718 [EditorId] 3330779718 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 5.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.23f1 (dbb3f7c5b5c6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -70,49 +70,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006236 seconds.
-- Loaded All Assemblies, in  0.339 seconds
+Registered in 0.006128 seconds.
+- Loaded All Assemblies, in  0.344 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 199 ms
+Android Extension - Scanning For ADB Devices 167 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.506 seconds
-Domain Reload Profiling: 844ms
-	BeginReloadAssembly (112ms)
+- Finished resetting the current domain, in  0.483 seconds
+Domain Reload Profiling: 827ms
+	BeginReloadAssembly (93ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
+	RebuildCommonClasses (31ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (133ms)
-		LoadAssemblies (112ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (154ms)
+		LoadAssemblies (93ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (130ms)
-			TypeCache.Refresh (129ms)
-				TypeCache.ScanAssembly (117ms)
+		AnalyzeDomain (151ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (134ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (506ms)
+	FinalizeReload (484ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (450ms)
+		SetupLoadedEditorAssemblies (421ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (293ms)
+			InitializePlatformSupportModulesInManaged (262ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (111ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
+			ProcessInitializeOnLoadAttributes (112ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,8 +120,8 @@ Domain Reload Profiling: 844ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.700 seconds
-Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.540 seconds
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -130,47 +130,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.659 seconds
-Domain Reload Profiling: 1359ms
-	BeginReloadAssembly (167ms)
+- Finished resetting the current domain, in  0.584 seconds
+Domain Reload Profiling: 1124ms
+	BeginReloadAssembly (128ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (56ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (412ms)
-		LoadAssemblies (350ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (341ms)
+		LoadAssemblies (255ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (166ms)
-			TypeCache.Refresh (147ms)
-				TypeCache.ScanAssembly (131ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (125ms)
 			ScanForSourceGeneratedMonoScriptInfo (13ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (660ms)
+	FinalizeReload (585ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (512ms)
+		SetupLoadedEditorAssemblies (447ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (84ms)
-			ProcessInitializeOnLoadAttributes (374ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (318ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.38 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (57.3 KB). Loaded Objects now: 3563.
-Memory consumption went from 131.9 MB to 131.8 MB.
-Total: 5.541000 ms (FindLiveObjects: 0.563400 ms CreateObjectMapping: 0.414300 ms MarkObjects: 4.360900 ms  DeleteObjects: 0.200000 ms)
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.3 KB). Loaded Objects now: 3570.
+Memory consumption went from 132.1 MB to 132.0 MB.
+Total: 2.906600 ms (FindLiveObjects: 0.251400 ms CreateObjectMapping: 0.197100 ms MarkObjects: 2.363700 ms  DeleteObjects: 0.093700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,68 +187,263 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 772.491881 seconds.
-  path: Assets/Class2th (Script)/Scripts/NewBehaviourScript.cs
-  artifactKey: Guid(7d6c170cc7b1e4543885557cd4a73c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class2th (Script)/Scripts/NewBehaviourScript.cs using Guid(7d6c170cc7b1e4543885557cd4a73c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da25cf09c418aa241ea22e218f25325') in 0.004077 seconds
+  Time since last request: 276.756573 seconds.
+  path: Assets/Class4th (Translate)/Scripts/Cloud.cs
+  artifactKey: Guid(ac0685dc2403bb94e9905ef97825d2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class4th (Translate)/Scripts/Cloud.cs using Guid(ac0685dc2403bb94e9905ef97825d2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622f0d2228be2cec8a45be3dcf20bc9c') in 0.002491 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 3.001212 seconds.
-  path: Assets/Class2th (Script)/Scripts/Stats.cs
-  artifactKey: Guid(ddf1b4ab00e0ed54cb7c7debb83df330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class2th (Script)/Scripts/Stats.cs using Guid(ddf1b4ab00e0ed54cb7c7debb83df330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0d27aca8fe2d03e45622c7fd64a252') in 0.000530 seconds
+  Time since last request: 4.602778 seconds.
+  path: Assets/Class4th (Translate)/Scripts/AirCraft.cs
+  artifactKey: Guid(5a26b4e9bb530474c87dd08da6c1f280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class4th (Translate)/Scripts/AirCraft.cs using Guid(5a26b4e9bb530474c87dd08da6c1f280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e580fdaf05b0f8547ca4cba910c514') in 0.000371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.418 seconds
+Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.771 seconds
+Domain Reload Profiling: 1189ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (256ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (772ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (421ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (296ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3573.
+Memory consumption went from 132.0 MB to 131.9 MB.
+Total: 2.576600 ms (FindLiveObjects: 0.235000 ms CreateObjectMapping: 0.374400 ms MarkObjects: 1.928700 ms  DeleteObjects: 0.037700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 394.084802 seconds.
+  path: Assets/Class4th (Translate)
+  artifactKey: Guid(2564e0ab50f19e541be208793c74d528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class4th (Translate) using Guid(2564e0ab50f19e541be208793c74d528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e048c11d737457b4cb08f4a8cadd74') in 0.002442 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 6.955236 seconds.
-  path: Assets/Class2th (Script)/Scripts/Animals.cs
-  artifactKey: Guid(0c9f19e9048559247bcd71f7083866b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class2th (Script)/Scripts/Animals.cs using Guid(0c9f19e9048559247bcd71f7083866b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f6c54dd9adee558d86c899de1855fd') in 0.000389 seconds
+  Time since last request: 1.779971 seconds.
+  path: Assets/Class4th (Translate)/Scripts
+  artifactKey: Guid(f40f8c12f7c2bf042ba3ee61a1053781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class4th (Translate)/Scripts using Guid(f40f8c12f7c2bf042ba3ee61a1053781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90d3369203bcbf4f2ad711c2ecc56d9') in 0.000351 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 152.104374 seconds.
-  path: Assets/Class2th (Script)/Animals_FREE/Prefabs
-  artifactKey: Guid(146468f8d2ebe6046b7bf64dd0c3895d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class2th (Script)/Animals_FREE/Prefabs using Guid(146468f8d2ebe6046b7bf64dd0c3895d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b21e95844f4e275074158a09651708') in 0.000455 seconds
+  Time since last request: 117.426097 seconds.
+  path: Assets/Class5th ()
+  artifactKey: Guid(d19c46de1f388d34e8e5533389cf5d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class5th () using Guid(d19c46de1f388d34e8e5533389cf5d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1fed11450f43f7534514bb948673cd') in 0.000518 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1.456993 seconds.
-  path: Assets/Class2th (Script)/Animals_FREE/Prefabs/Chicken_001.prefab
-  artifactKey: Guid(149b70b364be9b64d9e331169f8b5c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class2th (Script)/Animals_FREE/Prefabs/Chicken_001.prefab using Guid(149b70b364be9b64d9e331169f8b5c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de346822649080c2f3e95af69f518b0') in 0.099410 seconds
+  Time since last request: 73.845525 seconds.
+  path: Assets/Class1th (Gizmo)/UrsaAnimation/LOW POLY CUBIC - Goat and Sheep Pack/Material_URP/FarmAnimals.mat
+  artifactKey: Guid(4eb57f29cdf0989439289321998330c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class1th (Gizmo)/UrsaAnimation/LOW POLY CUBIC - Goat and Sheep Pack/Material_URP/FarmAnimals.mat using Guid(4eb57f29cdf0989439289321998330c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40bc7d25d00394b4b8120f62e8c7fd03') in 0.072495 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 126
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Class2th (Script)/Animals_FREE/Prefabs/Pinguin_001.prefab
-  artifactKey: Guid(bc872a222baa3e541acaf7d390c1e9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class2th (Script)/Animals_FREE/Prefabs/Pinguin_001.prefab using Guid(bc872a222baa3e541acaf7d390c1e9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac20fe11c699d22a8493995a626e4d7') in 0.027832 seconds
+  Time since last request: 0.225295 seconds.
+  path: Assets/Class4th (Translate)/Understone/Free Aircraft Pack/Materials/Grey101010.mat
+  artifactKey: Guid(0487f522877908b43a27133ffc74a409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class4th (Translate)/Understone/Free Aircraft Pack/Materials/Grey101010.mat using Guid(0487f522877908b43a27133ffc74a409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5d50b75a772f8005ec97ce30e3889e') in 0.029020 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 102
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Class2th (Script)/Animals_FREE/Prefabs/Tiger_001.prefab
-  artifactKey: Guid(cf7f1989a74b86c4d8527d5676d887eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class2th (Script)/Animals_FREE/Prefabs/Tiger_001.prefab using Guid(cf7f1989a74b86c4d8527d5676d887eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df200039c547555969d5fd9cc7c2aa07') in 0.015720 seconds
+  Time since last request: 0.000020 seconds.
+  path: Assets/Class2th (Script)/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusBodyB.mat
+  artifactKey: Guid(86139fe6f0366984492686819d9b18c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class2th (Script)/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusBodyB.mat using Guid(86139fe6f0366984492686819d9b18c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9491e4b0b381c4f32b51deafba44f7e7') in 0.051065 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 154
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Class2th (Script)/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusCornea.mat
+  artifactKey: Guid(7dc4a2e23af8798459a26ca3abc78fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class2th (Script)/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusCornea.mat using Guid(7dc4a2e23af8798459a26ca3abc78fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2259f72fa6360d83b290efdd50cf5c9') in 0.015499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Class2th (Script)/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusBodyD.mat
+  artifactKey: Guid(9acef97affffe9448a84281888317a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class2th (Script)/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusBodyD.mat using Guid(9acef97affffe9448a84281888317a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93a8a8d763295a345b3514c2efa6beb') in 0.037652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Class2th (Script)/PBRPachycephalasaurus/Materials/StandardFloor.mat
+  artifactKey: Guid(3ede68ef6f4cf84458f96a2ddd0864a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class2th (Script)/PBRPachycephalasaurus/Materials/StandardFloor.mat using Guid(3ede68ef6f4cf84458f96a2ddd0864a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ac95d5be8d5381d9d850a3e397d0d1') in 0.011923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Class1th (Gizmo)/UrsaAnimation/LOW POLY CUBIC - Goat and Sheep Pack/Material_URP/Terrain Material.mat
+  artifactKey: Guid(8e81865652933154d883c8ae3d09a28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class1th (Gizmo)/UrsaAnimation/LOW POLY CUBIC - Goat and Sheep Pack/Material_URP/Terrain Material.mat using Guid(8e81865652933154d883c8ae3d09a28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b4342a1e2c640bf1628c96fc8ef4fd') in 0.006314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Class1th (Gizmo)/UrsaAnimation/LOW POLY CUBIC - Goat and Sheep Pack/Material_Standard/Terrain Material.mat
+  artifactKey: Guid(8a197b663e1790e41a48e0defe752fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class1th (Gizmo)/UrsaAnimation/LOW POLY CUBIC - Goat and Sheep Pack/Material_Standard/Terrain Material.mat using Guid(8a197b663e1790e41a48e0defe752fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e649d68ed260615a9ca087e4f362cc3') in 0.012231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Class4th (Translate)/Understone/Free Aircraft Pack/Materials/YellowD78B1E.mat
+  artifactKey: Guid(24620a2f936eafd4f9aa143575733c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class4th (Translate)/Understone/Free Aircraft Pack/Materials/YellowD78B1E.mat using Guid(24620a2f936eafd4f9aa143575733c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7939360ede6c12fc1ce0fc0b14b8c33') in 0.012173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Class2th (Script)/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusEyesClawsTeethSpikes.mat
+  artifactKey: Guid(8227bbdee1dae414d821d5b3eb265abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class2th (Script)/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusEyesClawsTeethSpikes.mat using Guid(8227bbdee1dae414d821d5b3eb265abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706d5f64ead1ae65d071c54448c6b7c7') in 0.030745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Class1th (Gizmo)/UrsaAnimation/LOW POLY CUBIC - Goat and Sheep Pack/Material_HDRP/Terrain Material.mat
+  artifactKey: Guid(26a7f6066c2884a4a9bf2db42d9879e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class1th (Gizmo)/UrsaAnimation/LOW POLY CUBIC - Goat and Sheep Pack/Material_HDRP/Terrain Material.mat using Guid(26a7f6066c2884a4a9bf2db42d9879e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c638d2ede5b4ede63c6268b18439ca') in 0.006486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Class2th (Script)/Animals_FREE/Prefabs/Kitty_001.prefab
-  artifactKey: Guid(013fa0d55df1c3841b8c569db9dd1ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class2th (Script)/Animals_FREE/Prefabs/Kitty_001.prefab using Guid(013fa0d55df1c3841b8c569db9dd1ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d58cfb4426f728436c3a26b953928f') in 0.013355 seconds
+  path: Assets/Class2th (Script)/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusBodyC.mat
+  artifactKey: Guid(1a3898bb22e8ff745a11c2da5d781b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class2th (Script)/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusBodyC.mat using Guid(1a3898bb22e8ff745a11c2da5d781b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943588dc4f91927fc99a01973a8093df') in 0.030558 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 150
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 2.877401 seconds.
+  path: Assets/Class4th (Translate)/Understone/Free Aircraft Pack/Materials/Brown3B1208.mat
+  artifactKey: Guid(cdff1d4fd86e5e04cb1dda34a0333337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class4th (Translate)/Understone/Free Aircraft Pack/Materials/Brown3B1208.mat using Guid(cdff1d4fd86e5e04cb1dda34a0333337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d45260b52535cb4202636693b3c512') in 0.014262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Class4th (Translate)/Understone/Free Aircraft Pack/Materials/DarkRed7F040D.mat
+  artifactKey: Guid(66d7e2830448081499deabc55dfe8022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class4th (Translate)/Understone/Free Aircraft Pack/Materials/DarkRed7F040D.mat using Guid(66d7e2830448081499deabc55dfe8022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0f0083f845aded4c9f671c364e4dc5') in 0.009739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Class1th (Gizmo)/UrsaAnimation/LOW POLY CUBIC - Goat and Sheep Pack/Material_HDRP/FarmAnimals.mat
+  artifactKey: Guid(a335436fabf0a8b41a3f7945adcf1d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class1th (Gizmo)/UrsaAnimation/LOW POLY CUBIC - Goat and Sheep Pack/Material_HDRP/FarmAnimals.mat using Guid(a335436fabf0a8b41a3f7945adcf1d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a79149673e312ed03ebbfda2a725a4') in 0.005411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Class2th (Script)/PBRPachycephalasaurus/Demo/Materials/FantaBlack.mat
+  artifactKey: Guid(d28d3fd2b1f74124a96c8591c429e67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class2th (Script)/PBRPachycephalasaurus/Demo/Materials/FantaBlack.mat using Guid(d28d3fd2b1f74124a96c8591c429e67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78dd9e9baf6bb4dfb187d280fdd2af24') in 0.064391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Class4th (Translate)/Understone/Free Aircraft Pack/Materials/Blue2D4D51.mat
+  artifactKey: Guid(b7e405ce1ece92843a6946fc236cf1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class4th (Translate)/Understone/Free Aircraft Pack/Materials/Blue2D4D51.mat using Guid(b7e405ce1ece92843a6946fc236cf1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1094c70b5ba12de735c098380332a109') in 0.015018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Class2th (Script)/Blink/Art/Animals/Stylized/Bear/Bear_Meshes/Bear.fbx
+  artifactKey: Guid(b7822eb5951163b48830b6d9bcbf48b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class2th (Script)/Blink/Art/Animals/Stylized/Bear/Bear_Meshes/Bear.fbx using Guid(b7822eb5951163b48830b6d9bcbf48b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450afde28546ec51e87b00ff55f168f5') in 0.052138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Class2th (Script)/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack2.fbx
+  artifactKey: Guid(bf9ab18afee2f164d9b48f5591a2e137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class2th (Script)/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack2.fbx using Guid(bf9ab18afee2f164d9b48f5591a2e137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c2f6ae066ae6e94ae1908bfd626217') in 0.027006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 141
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
 AssetImportWorker is now disconnected from the server

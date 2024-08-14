@@ -18,6 +18,6 @@ public class PositionManager : MonoBehaviour
 
         cloud.transform.position = spawners[random].position;
 
-        Debug.Log(spawners[random].position);
+        // Debug.Log(spawners[random].position);
     }
 }
