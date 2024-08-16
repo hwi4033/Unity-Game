@@ -365,6 +365,8 @@
 "Assets/Class4th (Translate)/Scripts/Cloud.cs"
 "Assets/Class4th (Translate)/Scripts/Position Manager.cs"
 "Assets/Class5th (Animation)/Scripts/Knight.cs"
+"Assets/Class6th (User Interface)/Scripts/Menu Manager.cs"
+"Assets/Class6th (User Interface)/Scripts/Select.cs"
 -langversion:9.0
 
 /deterministic
