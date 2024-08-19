@@ -367,6 +367,8 @@
 "Assets/Class5th (Animation)/Scripts/Knight.cs"
 "Assets/Class6th (User Interface)/Scripts/Menu Manager.cs"
 "Assets/Class6th (User Interface)/Scripts/Select.cs"
+"Assets/Class7th (Prefab)/Scripts/Health.cs"
+"Assets/Class7th (Prefab)/Scripts/Mummy.cs"
 -langversion:9.0
 
 /deterministic
