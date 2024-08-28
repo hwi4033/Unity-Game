@@ -5,6 +5,7 @@ using UnityEngine;
 public class DataManager : MonoBehaviour
 {
     [SerializeField] int score;
+    [SerializeField] ScoreUI scoreUI;
 
     // Start is called before the first frame update
     void Awake()
@@ -12,14 +13,20 @@ public class DataManager : MonoBehaviour
         Load();
     }
 
-    public void Reset()
+    public void Initialized()
     {
-        score = 0;
+        PlayerPrefs.DeleteAll();
+
+        Load();
     }
 
     public void IncreaseScore()
     {
-        score += Random.Range(5, 11);
+        int random = Random.Range(5, 10);
+
+        score += random;
+
+        scoreUI.OnUpdate(random);
 
         PlayerPrefs.SetInt("Score", score);
     }
